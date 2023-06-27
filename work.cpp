@@ -1,9 +1,13 @@
-#include<iostream>
+#include <iostream>
+#include<iomanip>
 using namespace std;
 
-int main(){
-   int n,m;
-   cin>>n>>m;
-   cout<<(n+m)<<endl;
-   return 0;
+
+int main() {
+        float ans;
+        float a,b,c,d,e;
+        cin>>a>>b>>c>>d>>e;
+        ans=(a+b+c+d+e)/5;
+        cout << fixed << setprecision(2) << ans ;
+        return 0;
 }
