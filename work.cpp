@@ -3,6 +3,8 @@
 using namespace std;
 
 
+/// @brief 
+/// @return 
 int main() {
         float ans;
         float a,b,c,d,e;
